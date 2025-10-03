@@ -127,6 +127,10 @@ chmod +x main.sh
 
 ```
 
+--- 
+
+![ezgif com-speed](https://github.com/user-attachments/assets/4d56f22d-493d-40f2-83ca-3c6150deef76)
+
 ---
 
 ## ⚖️ License
