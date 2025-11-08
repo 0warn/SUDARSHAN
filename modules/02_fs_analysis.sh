@@ -1,14 +1,27 @@
 #!/bin/bash
 # File System Analysis - Sleuthkit style
 
+# == COLOR & STYLE ==
+RESET="\e[0m"
+BOLD="\e[1m"
+
+CYAN="\e[96m"
+GREEN="\e[92m"
+YELLOW="\e[93m"
+MAGENTA="\e[95m"
+RED="\e[91m"
+WHITE="\e[97m"
+BLUE="\e[94m"
+
 module_02_fs_analysis() {
   echo ""
-  echo " File System Analysis"
-  echo "1) List Partitions (mmls)"
-  echo "2) List Files in Image (fls)"
-  echo "3) Extract File (icat)"
-  echo "4) File Type Analysis (file/disktype)"
-  echo "5) Back"
+  echo -e "${GREEN}${BOLD}     FILE SYSTEM ANALYSIS ${RESET} "
+  echo -e "${MAGENTA}${BOLD}]===========================================[${RESET}"
+  echo -e "${YELLOW}${BOLD}  1)> ${RESET} ${WHITE}${BOLD} List Partitions (mmls)${RESET}"
+  echo -e "${YELLOW}${BOLD}  2)> ${RESET} ${WHITE}${BOLD} List Files in Image (fls)${RESET}"
+  echo -e "${YELLOW}${BOLD}  3)> ${RESET} ${WHITE}${BOLD} Extract File (icat)${RESET}"
+  echo -e "${YELLOW}${BOLD}  4)> ${RESET} ${WHITE}${BOLD} File Type Analysis (file/disktype)${RESET}"
+  echo -e "${YELLOW}${BOLD}  5)> ${RESET} ${RED}${BOLD} Back${RESET}"
   echo ""
   read -p " (SUDARSHAN)> " opt
 

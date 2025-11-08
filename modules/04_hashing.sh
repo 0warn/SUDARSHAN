@@ -1,14 +1,27 @@
 #!/bin/bash
 # Hashing & Integrity
 
+# === Colors & Styles ===
+RESET="\e[0m"
+BOLD="\e[1m"
+
+CYAN="\e[96m"
+GREEN="\e[92m"
+YELLOW="\e[93m"
+MAGENTA="\e[95m"
+RED="\e[91m"
+WHITE="\e[97m"
+BLUE="\e[94m"
+
 module_04_hashing() {
   echo ""
-  echo " Hashing"
-  echo "1) MD5"
-  echo "2) SHA256"
-  echo "3) Fuzzy Hash (ssdeep)"
-  echo "4) Verify Known Hashes"
-  echo "5) Back"
+  echo -e "${GREEN}${BOLD}         HASHING${RESET}"
+  echo -e "${MAGENTA}${BOLD} ]========================[${RESET}"
+  echo -e "${YELLOW}${BOLD}  1)>${RESET} ${WHITE}${BOLD} MD5${RESET}"
+  echo -e "${YELLOW}${BOLD}  2)>${RESET} ${WHITE}${BOLD} SHA256${RESET}"
+  echo -e "${YELLOW}${BOLD}  3)>${RESET} ${WHITE}${BOLD} Fuzzy Hash (ssdeep)${RESET}"
+  echo -e "${YELLOW}${BOLD}  4)>${RESET} ${WHITE}${BOLD} Verify Known Hashes${RESET}"
+  echo -e "${YELLOW}${BOLD}  5)>${RESET} ${RED}${BOLD} Back${RESET}"
   echo ""
   read -p " (SUDHARSHAN)> " opt
 

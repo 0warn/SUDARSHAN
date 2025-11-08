@@ -1,14 +1,27 @@
 #!/bin/bash
 # File Carving
 
+# === Colors & Styles ===
+RESET="\e[0m"
+BOLD="\e[1m"
+
+CYAN="\e[96m"
+GREEN="\e[92m"
+YELLOW="\e[93m"
+MAGENTA="\e[95m"
+RED="\e[91m"
+WHITE="\e[97m"
+BLUE="\e[94m"
+
 module_03_carving() {
   echo ""
-  echo " File Carving"
-  echo "1) Foremost"
-  echo "2) Scalpel"
-  echo "3) PhotoRec"
-  echo "4) Bulk Extractor"
-  echo "5) Back"
+  echo -e "${GREEN}${BOLD}   FILE CARVING${RESET}"
+  echo -e "${MAGENTA}${BOLD} ]=====================[${RESET}"
+  echo -e "${YELLOW}${BOLD}  1)> ${RESET} ${WHITE}${BOLD}Foremost${RESET}"
+  echo -e "${YELLOW}${BOLD}  2)> ${RESET} ${WHITE}${BOLD}Scalpel${RESET}"
+  echo -e "${YELLOW}${BOLD}  3)> ${RESET} ${WHITE}${BOLD}PhotoRec${RESET}"
+  echo -e "${YELLOW}${BOLD}  4)> ${RESET} ${WHITE}${BOLD}Bulk Extractor${RESET}"
+  echo -e "${YELLOW}${BOLD}  5)> ${RESET} ${RED}${BOLD}Back${RESET}"
   echo ""
   read -p " (SUDARSHAN)> " opt
 

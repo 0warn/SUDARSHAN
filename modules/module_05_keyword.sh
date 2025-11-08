@@ -1,14 +1,27 @@
 #!/bin/bash
 # Keyword Search
 
+# === Colors & Styles ===
+RESET="\e[0m"
+BOLD="\e[1m"
+
+CYAN="\e[96m"
+GREEN="\e[92m"
+YELLOW="\e[93m"
+MAGENTA="\e[95m"
+RED="\e[91m"
+WHITE="\e[97m"
+BLUE="\e[94m"
+
 module_06_keyword() {
   echo ""
-  echo " Keyword Search"
-  echo "1) Grep"
-  echo "2) Ripgrep"
-  echo "3) Strings"
-  echo "4) YARA"
-  echo "5) Back"
+  echo -e "    KEYWORD-SEARCH${RESET}"
+  echo -e "${MAGENTA}${BOLD} ]=====================[${RESET}"
+  echo -e "${YELLOW}${BOLD}  1)>${RESET} ${WHITE}${BOLD} Grep${RESET}"
+  echo -e "${YELLOW}${BOLD}  2)>${RESET} ${WHITE}${BOLD} Ripgrep${RESET}"
+  echo -e "${YELLOW}${BOLD}  3)>${RESET} ${WHITE}${BOLD} Strings${RESET}"
+  echo -e "${YELLOW}${BOLD}  4)>${RESET} ${WHITE}${BOLD} YARA${RESET}"
+  echo -e "${YELLOW}${BOLD}  5)>${RESET} ${RED}${BOLD} Back${RESET}"
   echo ""
   read -p " (SUDARSHAN)> " opt
 
