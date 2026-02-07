@@ -73,7 +73,7 @@ SUDARSHAN/
 1️⃣ **Clone the repository**
 
 ```bash
-git clone https://github.com/CYBER-4RMY/SUDARSHAN.git
+git clone https://github.com/0warn/SUDARSHAN.git
 cd SUDARSHAN
 ```
 
@@ -141,6 +141,6 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## 👨‍💻 Author
 
-Built with precision by **[CODE](https://github.com/CYBER-4RMY)**
+Built with precision by **[CODE](https://github.com/0warn)**
 
 ---
